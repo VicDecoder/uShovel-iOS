@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		57250CBB1FCADE0300E71C24 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57250CBA1FCADDF400E71C24 /* CoreLocation.framework */; };
 		57BB97181FA308AB003A3EEB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57BB97171FA308AB003A3EEB /* AppDelegate.swift */; };
 		57BB971A1FA308AB003A3EEB /* JobViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57BB97191FA308AB003A3EEB /* JobViewController.swift */; };
 		57BB971C1FA308AB003A3EEB /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57BB971B1FA308AB003A3EEB /* MapViewController.swift */; };
@@ -19,6 +20,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		57250CBA1FCADDF400E71C24 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 		57BB97141FA308AB003A3EEB /* uShovel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = uShovel.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		57BB97171FA308AB003A3EEB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		57BB97191FA308AB003A3EEB /* JobViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JobViewController.swift; sourceTree = "<group>"; };
@@ -37,6 +39,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				57250CBB1FCADE0300E71C24 /* CoreLocation.framework in Frameworks */,
 				57BB972D1FA308E8003A3EEB /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -78,6 +81,7 @@
 		57BB972B1FA308E8003A3EEB /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				57250CBA1FCADDF400E71C24 /* CoreLocation.framework */,
 				57BB972C1FA308E8003A3EEB /* MapKit.framework */,
 			);
 			name = Frameworks;
