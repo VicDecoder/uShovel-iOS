@@ -28,6 +28,8 @@ func GetJobs(){
             print(data)
             do{
                   jsonData=try JSONSerialization.jsonObject(with: data, options: [])//Gets the jobs on the back end and stores it in jsonDa
+                    let result=jsonData as! NSArray
+                    print("The first one is \(result[0])")
             }catch{
                 print(error )
             }
@@ -57,8 +59,6 @@ func GetJobs(){
                 }
             }
         }.resume()
-        if let jsonData=jsonData{
-            print(jsonData)
-        }
+        
     }
 
