@@ -1,8 +1,12 @@
 {
   "images" : [
     {
+      "idiom" : "universal"
+    },
+    {
       "idiom" : "universal",
-      "filename" : "user.png"
+      "filename" : "user.png",
+      "scale" : "2x"
     }
   ],
   "info" : {

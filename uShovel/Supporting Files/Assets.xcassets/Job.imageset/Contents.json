@@ -1,8 +1,12 @@
 {
   "images" : [
     {
+      "idiom" : "universal"
+    },
+    {
       "idiom" : "universal",
-      "filename" : "jobs.png"
+      "filename" : "jobs.png",
+      "scale" : "2x"
     }
   ],
   "info" : {
